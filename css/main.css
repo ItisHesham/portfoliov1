@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #F5F2E7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 200px;
+  position: fixed;
+  z-index: 999;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2C3333;
+  font-size: 1.7em;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-left: 30px;
+  color: #2C3333;
+}
+
+.nav-bar a:hover {
+  color: #395B64;
+} 
+
+section {
+  padding: 100px 100px;
+}
+
+.main {
+  text-align: center;
+  line-height: 2;
+  background: url(../images/bck.jpg) no-repeat;
+  min-height: 100vh;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+
+.main h1,.build {
+  color: #F5F2E7;
+}
+
+.main h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.main h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+.main .social-icons a {
+  color: #F5F2E7;
+  font-size: 1.5em;
+  padding-left: 25px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #2C3333;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 2.2em;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap row;
+  margin-top: 100px;
+}
+
+.cards {
+  min-height: 70vh;
+}
+
+.card {
+  width: 15.56em;
+  background-color: #fff;
+  box-shadow: 0px 5px 20px rgba(0 0 0 / 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px;
+  padding: 25px;
+  transition: 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 5em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.projects {
+  background-color: #F5F2E7;
+}
+ 
+.proj-card {
+  width: 15.56em;
+  background-color: #fff;
+  box-shadow: 0px 5px 20px rgba(0 0 0 / 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s ease;
+}
+
+.proj-card:hover {
+  transform: scale(1.1);
+}
+
+.example img{
+  width: 14.56em;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.card-email {
+  width: 21.56em;
+  background-color: #fff;
+  box-shadow: 0px 5px 20px rgba(0 0 0 / 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px;
+  padding: 25px;
+  transition: 0.5s ease;
+}
+
+.card-email:hover {
+  transform: scale(1.1);
+}
+
+.mail a {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #333;
+  font-size: 1.8em;
+  font-weight: 500;
+}
